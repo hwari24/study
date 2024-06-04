@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 요소 내용과 속성</title>
+  </head>
+  <body>
+    <img id="images" src="/images/sleeping.jpg" alt="img" />
+    <button onclick="changeImage()">이미지변경</button>
+    <button onclick="changeSize()">이미지크기변경</button>
+    <script>
+      const changeImage = () => {
+        document.getElementById("images").src = "/i";
+      };
+      const changeSize = () => {
+        document.getElementById("image").width = "200";
+      };
+    </script>
+  </body>
+</html>
